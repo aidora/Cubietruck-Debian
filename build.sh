@@ -16,12 +16,12 @@ REVISION="3.1"                          			# image release version
 # method
 SOURCE_COMPILE="yes"             				# force source compilation: yes / no
 KERNEL_CONFIGURE="no"           				# want to change my default configuration
-KERNEL_CLEAN="yes"						# run MAKE clean before kernel compilation
-USEALLCORES="yes"                           			# Use all CPU cores for compiling
+KERNEL_CLEAN="yes"					            # run MAKE clean before kernel compilation
+USEALLCORES="yes"                           	# Use all CPU cores for compiling
 
 # user 
 DEST_LANG="en_US.UTF-8"                     			# sl_SI.UTF-8, en_US.UTF-8
-TZDATA="Europe/Ljubljana"               			# Timezone
+TZDATA="Asia/Bangkok"               		            # Timezone
 ROOTPWD="1234"                              			# Must be changed @first login
 MAINTAINER="Igor Pecovnik"                  			# deb signature
 MAINTAINERMAIL="igor.pecovnik@****l.com"    			# deb signature
